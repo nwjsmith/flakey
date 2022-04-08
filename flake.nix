@@ -11,6 +11,7 @@
         buildInputs = with pkgs; [
           cowsay
           hivemind
+          redis
           ruby_2_7
 	  postgresql_13
         ];
